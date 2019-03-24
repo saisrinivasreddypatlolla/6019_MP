@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:stretchColumns="0,1,2">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="Course Name"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/course_status"
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="Course Status"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/course_cgpa"
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="Course CGPA"
+            android:visibility="visible" />
+
+    </TableRow>
+</TableLayout>

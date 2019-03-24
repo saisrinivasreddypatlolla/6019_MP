@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:stretchColumns="0,1,2">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/attendance_course_name"
+            android:text="Course Name"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:layout_width="30dp"/>
+
+        <TextView
+            android:id="@+id/attendance_course_status"
+            android:text="Course Status"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:layout_width="30dp"/>
+
+
+        <TextView
+            android:id="@+id/attendance_course"
+            android:text="Attendance"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:layout_width="30dp"/>
+
+    </TableRow>
+</TableLayout>
